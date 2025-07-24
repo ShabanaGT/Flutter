@@ -12,7 +12,6 @@ class ProviderClass with ChangeNotifier {
 
   void addtoCart(Map<String, dynamic> pdt) {
     cartProducts.add(pdt);
-    cartProducts.length++;
     notifyListeners();
   }
 
